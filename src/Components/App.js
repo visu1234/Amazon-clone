@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
-import "./App.css";
+import "../Styles/App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./Header";
 import Home from "./Home";
 import Checkout from "./Checkout";
 import Login from "./Login";
 import { useStateValue } from "./StateProvider";
-import { auth } from "./firebase";
+import { auth } from "../firebase";
 // router used for multiple page urls to get feel of desktop app when switchinh between pages, server need not re load
 // switch used logic for switching pages
 

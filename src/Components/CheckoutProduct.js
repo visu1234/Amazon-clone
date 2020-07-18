@@ -1,6 +1,6 @@
 import React from "react";
 import Rating from "@material-ui/lab/Rating";
-import "./CheckoutProduct.css";
+import "../Styles/CheckoutProduct.css";
 import { useStateValue } from "./StateProvider";
 
 function CheckoutProduct({ id, title, image, price, rating }) {

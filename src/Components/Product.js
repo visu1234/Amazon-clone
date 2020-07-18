@@ -1,5 +1,5 @@
 import React from "react";
-import "./Product.css";
+import "../Styles/Product.css";
 import Rating from "@material-ui/lab/Rating";
 import { useStateValue } from "./StateProvider";
 

@@ -1,10 +1,10 @@
 import React from "react";
-import "./Header.css";
+import "../Styles/Header.css";
 import { Link } from "react-router-dom";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import { useStateValue } from "./StateProvider";
-import { auth } from "./firebase";
+import { auth } from "../firebase";
 
 function Header() {
   const [{ basket, user }] = useStateValue(); //  const[state,dispatch] is destructured
